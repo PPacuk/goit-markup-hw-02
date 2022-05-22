@@ -4,53 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Portfolio</title>
   </head>
 
   <body>
-    <header>
-      <a href="https://ppacuk.github.io/web-studio/">Web-studio</a>
+    <header class="contact">
+      <a class="banner" href="https://ppacuk.github.io/web-studio/"
+        ><span class="highlight">Web</span>Studio</a
+      >
       <nav>
         <ul>
-          <li>Agencja</li>
-          <li>Portfolio</li>
-          <li>Kontakt</li>
+          <li><a class="link" >Agencja</a></li>
+          <li><a class="link" href="./portfolio.html"> Portfolio</a></li>
+          <li><a class="link" >Kontakt</a></li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+        <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="link" href="tel:+48111111111">+48 111 111 111</a></li>
       </ul>
     </header>
 
     <main>
-      <section>
+      <div>
         <ul>
           <li>
-            <button type="button">Wszystkie</button>
+            <p><button class="button" type="button">Wszystkie</button></p>
           </li>
           <li>
-            <button type="button">Strony</button>
+            <p><button class="button" type="button">Strony</button></p>
           </li>
           <li>
-            <button type="button">Aplikacje</button>
+            <p><button class="button" type="button">Aplikacje</button></p>
           </li>
           <li>
-            <button type="button">Dizajn</button>
+            <p><button class="button" type="button">Dizajn</button></p>
           </li>
           <li>
-            <button type="button">Marketing</button>
+            <p><button class="button" type="button">Marketing</button></p>
           </li>
         </ul>
-      </section>
+      </div>
       <section>
         <ul>
           <li>
             <figure>
               <img src="./image/Portfolio/technocrack.jpg" alt="laptop" width="370" height="294" />
               <figcaption>
-                <h3>Technocrack</h3>
-                <p>Strona internetowa</p>
+                <h3 class="projectex">Technocrack</h3>
+                <p class="info">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
@@ -63,8 +70,8 @@
                 height="294"
               />
               <figcaption>
-                <h3>Grafika New Orlean vs Golden Star</h3>
-                <p>Dizajn</p>
+                <h3 class="projectex">Grafika New Orlean vs Golden Star</h3>
+                <p class="info">Dizajn</p>
               </figcaption>
             </figure>
           </li>
@@ -77,8 +84,8 @@
                 height="294"
               />
               <figcaption>
-                <h3>Restauracja Seafood</h3>
-                <p>Aplikacja</p>
+                <h3 class="projectex">Restauracja Seafood</h3>
+                <p class="info">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -91,8 +98,8 @@
                 height="294"
               />
               <figcaption>
-                <h3>Projekt Prime</h3>
-                <p>Marketing</p>
+                <h3 class="projectex">Projekt Prime</h3>
+                <p class="info">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -105,8 +112,8 @@
                 height="294"
               />
               <figcaption>
-                <h3>Projekt Boxes</h3>
-                <p>Aplikacja</p>
+                <h3 class="projectex">Projekt Boxes</h3>
+                <p class="info">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -119,8 +126,8 @@
                 height="294"
               />
               <figcaption>
-                <h3>Inspiration has no Borders</h3>
-                <p>Strona internetowa</p>
+                <h3 class="projectex">Inspiration has no Borders</h3>
+                <p class="info">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
@@ -133,8 +140,8 @@
                 height="294"
               />
               <figcaption>
-                <h3>Magazyn Limited Edition</h3>
-                <p>Dizajn</p>
+                <h3 class="projectex">Magazyn Limited Edition</h3>
+                <p class="info">Dizajn</p>
               </figcaption>
             </figure>
           </li>
@@ -147,8 +154,8 @@
                 height="294"
               />
               <figcaption>
-                <h3>Projekt LAB</h3>
-                <p>Marketing</p>
+                <h3 class="projectex">Projekt LAB</h3>
+                <p class="info">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -161,8 +168,8 @@
                 height="294"
               />
               <figcaption>
-                <h3>Growing Business</h3>
-                <p>Aplikacja</p>
+                <h class="projectex"3>Growing Business</h3>
+                <p class="info">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -172,11 +179,13 @@
 
     <footer>
       <div>
-        <a href="https://ppacuk.github.io/web-studio/">Web-studio</a>
-        <address>
-          <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-          <p><a href="mailto:info@example.com">info@example.com</a></p>
-          <p><a href="tel:+48111111111">+48 111 111 111</a></p>
+        <a class="banner" href="https://ppacuk.github.io/web-studio/"
+          ><span class="highlight">Web</span>Studio</a
+        >
+        <address class="contact">
+          <p><a class="link">m. Warszawa, Aleje Jerozolimskie 21</a></p>
+          <p><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></p>
+          <p><a class="link" href="tel:+48111111111">+48 111 111 111</a></p>
         </address>
       </div>
     </footer>
