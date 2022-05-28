@@ -29,9 +29,27 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
+.adress:visited {
+  color: #757575;
+}
+.adress:hover,
+.adress:focus {
+  color: #2196f3;
+}
+.adress {
+  color: #757575;
+  text-decoration: none;
+}
+
+.link:visited {
+  color: #212121;
+}
 .link:hover,
 .link:focus {
   color: #2196f3;
+}
+.link {
+  text-decoration: none;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -42,16 +60,30 @@ body {
 .highlight {
   color: #2196f3;
 }
+.highlightbottom{
+  color: #FFFFFF;
+}
+.highlightbottom:visited {
+  color: #FFFFFF;
+}
+.highlightbottom:hover,
+.highlightbottom:focus {
+  color: #2196f3;
+}
+.highlightbanner{
+  color: #FFFFFF;
+}
+.highlightbanner:visited {
+  color: #FFFFFF;
+}
 .banner {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19230769;
-}
-.banner:hover,
-.banner:focus {
-  color: #2196f3;
+  text-decoration: none;
+  color: black;
 }
 .contact {
   font-family: 'Roboto';
@@ -123,4 +155,7 @@ body {
 }
 .back {
   background-color: #f5f4fa;
+}
+.bottom{
+  background-color: #2F303A;
 }
